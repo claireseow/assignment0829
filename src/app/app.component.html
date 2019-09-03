@@ -1,21 +1,164 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Coin Market Cap</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ranking </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tool</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Resources</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blogs</a>
+      </li>
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+    <span class="navbar-text">
+      Enter text to search
+    </span>
+  </div>
+</nav>
+
+<div>
+<p class="text-center">Top 10 Cryptocurrency Exchanges by Trade Volume</p>
+</div>
+
+<div>
+<table class="table table-sm">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">MarketCap</th>
+      <th scope="col">Price</th>
+      <th scope="col">Volume(24hr)</th>
+      <th scope="col">Circulating Supply</th>
+      <th scope="col">Change(24h)</th>
+      <th scope="col">PriceGraph(24h)</th>    
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Bitcoin</td>
+      <td>$185,572,340,949</td>
+      <td>$10,359.75</td>
+      <td>$18,387,559,567</td>
+      <td>17,912,825 BTC</td>
+      <td>6.09%</td>
+      <td>
+        <a href="graph" class="badge badge-primary">graph</a>
+      </td>      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Ethereum</td>
+      <td>$19,103,765,820</td>
+      <td>$177.57</td>
+      <td>$6,844,443,010</td>
+      <td>107,586,264 ETH</td>
+      <td>3.63%</td>
+      <td>
+      <a href="graph" class="badge badge-primary">graph</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>XRP</td>
+      <td>$11,145,039,722</td>
+      <td>$0.259279</td>
+      <td>$1,048,484,078	</td>
+      <td>42,984,656,144 XRP</td>
+      <td>1.54%</td>
+      <td> 
+      <a href="graph" class="badge badge-primary">graph</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Bitcoin Cash</td>
+      <td>$5,297,983,751</td>
+      <td>$294.62</td>
+      <td>$1,377,675,012</td>
+      <td>17,982,463 BCH</td>
+      <td>4.32%</td>
+      <td> <a href="graph" class="badge badge-primary">graph</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Litecoin</td>
+      <td>$4,235,627,627</td>
+      <td>$67.05</td>
+      <td>$2,467,896,568	</td>
+      <td>63,172,199 LTC</td>
+      <td>2.62%</td>
+      <td> <a href="graph" class="badge badge-primary">graph</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Tether</td>
+      <td>$4,006,338,291</td>
+      <td>$0.999917</td>
+      <td>$20,353,941,200</td>
+      <td>4,006,669,728 USDT *</td>
+      <td>-0.31%</td>
+      <td> <a href="graph" class="badge badge-primary">graph</a>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>Binance Coin</td>
+      <td>$3,514,683,957</td>
+      <td>$22.60</td>
+      <td>$243,139,504</td>
+      <td>155,536,713 BNB *</td>
+      <td>5.67%</td>
+      <td> <a href="graph" class="badge badge-primary">graph</a></td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>EOS</td>
+      <td>$3,101,647,242</td>
+      <td>$3.33</td>
+      <td>$1,331,276,312</td>
+      <td>930,141,326 EOS *</td>
+      <td>2.85%</td>
+      <td> <a href="graph" class="badge badge-primary">graph</a></td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td>Bitcoin SV</td>
+      <td>$2,396,330,644</td>
+      <td>$134.21</td>
+      <td>$310,839,386</td>
+      <td>17,854,986 BSV</td>
+      <td>2.16%</td>
+      <td> <a href="graph" class="badge badge-primary">graph</a></td>
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td>Monero</td>
+      <td>$1,261,293,479</td>
+      <td>$73.38</td>
+      <td>$68,474,556</td>
+      <td>17,188,701 XMR</td>
+      <td>3.77%</td>
+      <td> <a href="graph" class="badge badge-primary">graph</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 <router-outlet></router-outlet>
+
