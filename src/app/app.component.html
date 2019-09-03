@@ -155,10 +155,15 @@
       <td>$68,474,556</td>
       <td>17,188,701 XMR</td>
       <td>3.77%</td>
-      <td> <a href="graph" class="badge badge-primary">graph</a></td>
+      <td> <a href="graph" class="badge badge-primary">graph</a>       
+      </td>
     </tr>
   </tbody>
 </table>
 </div>
-<router-outlet></router-outlet>
+
+<div class="container" id = graph [routerLink]="['/graph']" >
+  <router-outlet></router-outlet>
+</div>
+
 

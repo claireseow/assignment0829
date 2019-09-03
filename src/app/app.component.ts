@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormControl } from '@angular/forms';
+// import { CryptoService } from '../crypto.service';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +8,14 @@ import { FormControl } from '@angular/forms';
 })
 export class AppComponent {
   title = 'market';
-  // search = [];
-
-  // textInput= new FormControl()
+  // graph;
+  
+  constructor() {}
+  // constructor(private cryptoService: CryptoService) {
+  //    this.graph = this.cryptoService.getShippingPrices()
+  //  
+// }
+   
 
   // constructor(){}
 
